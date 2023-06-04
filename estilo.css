@@ -49,23 +49,30 @@ a{
     margin-top: 45%;
 }
 .texto h1{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     color: #000;
+    background-color:#808080 ;
+    border-radius: 40px;
+    padding: 10px 20px;
+    max-width: 479px;
+    max-height: 100px;
 }
 .texto span{
     color: #000;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
 }
 .texto p{
     font-size: 20px;
     color: #000;
-    margin-top: 20px;
+    margin-top: 13px;
+    margin-bottom: 20px;
+
 }
 
 .boton {
-    margin-top: 20px;
+    margin-top: 5px;
     display: inline-block;
     padding: 10px 30px;
     font-size: 16px;
@@ -74,6 +81,8 @@ a{
     color: #fff;
     border-radius: 40px;
     transition: all 0.3s ease;
+    border: 1px solid #000;
+    cursor: pointer;
 }
 .boton:hover{
     background-color: #fff;
